@@ -1,4 +1,4 @@
-lass NameEncoderDecoder {
+class NameEncoderDecoder {
   public String encode(String name) {
   return "NOTFORYOU" +              name.replace("e","1").replace("u","2").replace("i","3").replace("o","4")
     .replace("a","5") + "YESNOTFORYOU";
